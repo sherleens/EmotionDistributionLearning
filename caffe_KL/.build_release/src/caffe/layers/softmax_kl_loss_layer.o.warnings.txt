@@ -1,0 +1,8 @@
+src/caffe/layers/softmax_kl_loss_layer.cpp: In instantiation of ‘void caffe::SoftmaxWithKLLossLayer<Dtype>::Backward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<bool>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = float]’:
+src/caffe/layers/softmax_kl_loss_layer.cpp:206:1:   required from here
+src/caffe/layers/softmax_kl_loss_layer.cpp:182:15: warning: variable ‘nn’ set but not used [-Wunused-but-set-variable]
+           int nn = 0;
+               ^
+src/caffe/layers/softmax_kl_loss_layer.cpp: In instantiation of ‘void caffe::SoftmaxWithKLLossLayer<Dtype>::Backward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<bool>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = double]’:
+src/caffe/layers/softmax_kl_loss_layer.cpp:206:1:   required from here
+src/caffe/layers/softmax_kl_loss_layer.cpp:182:15: warning: variable ‘nn’ set but not used [-Wunused-but-set-variable]

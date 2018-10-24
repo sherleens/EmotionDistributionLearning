@@ -1,0 +1,1 @@
+train_vgg_gs.sh: line 2: ../caffe_kl/build/tools/caffe: Permission denied
