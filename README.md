@@ -48,7 +48,8 @@ If you find our framework useful in your research, please consider citing:
 
   ```make
   # This is required only if you will compile the matlab interface.
-
+  ```
+  
 ### Requirements: hardware
 
 1. NVIDIA GTX TITANX (~12G of memory)
@@ -59,6 +60,7 @@ If you find our framework useful in your research, please consider citing:
   ```Shell
   git clone https://github.com/sherleens/EmotionDistributionLearning.git
   ```
+  
 2. Build Caffe with KLloss
   ```Shell
   cd $ROOT/caffe_KL
