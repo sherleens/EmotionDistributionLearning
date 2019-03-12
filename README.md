@@ -61,10 +61,10 @@ If you find our framework useful in your research, please consider citing:
   git clone https://github.com/sherleens/EmotionDistributionLearning.git
   ```
 2. Change the label number in $ROOT/caffe_KL/src/caffe/layers/data_layer.cpp
-  ```Shell
-  line52:    int labelNum = 1; //for CNNR method
+  ```C
+  line52:    int labelNum = 7; //change to the corresponding label number with the LMDB file
   ...
-  line110:   int labelNum = 1; //for CNNR method
+  line110:   int labelNum = 7; //for example, change to 7 for the Emotion6 dataset, 8 for the Flickr_LDL dataset 
   ```
 3. Build Caffe with KLloss
   ```Shell
