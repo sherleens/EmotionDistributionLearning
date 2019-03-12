@@ -60,8 +60,13 @@ If you find our framework useful in your research, please consider citing:
   ```Shell
   git clone https://github.com/sherleens/EmotionDistributionLearning.git
   ```
-  
-2. Build Caffe with KLloss
+2. Change the label number in $ROOT/caffe_KL/src/caffe/layers/data_layer.cpp
+  ```Shell
+  line52:    int labelNum = 1; //for CNNR method
+  ...
+  line110:   int labelNum = 1; //for CNNR method
+  ```
+3. Build Caffe with KLloss
   ```Shell
   cd $ROOT/caffe_KL
   # Now follow the Caffe installation instructions here
@@ -70,6 +75,7 @@ If you find our framework useful in your research, please consider citing:
   # and your Makefile.config in place, then simply do:
   make all -j 8 && make matcaffe
   ```
+
 
 ### Download dataset lmdb
 
