@@ -109,6 +109,6 @@ cd prototxt && bash ./train_vgg_gs.sh
 
 ### Our trained models
 
-The models trained on the distribution datasets can be downloaded from [here]().
+The models trained on the distribution datasets can be downloaded from here.
 
-coming soon.
+coming soon...
